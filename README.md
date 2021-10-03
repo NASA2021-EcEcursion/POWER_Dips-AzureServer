@@ -6,4 +6,4 @@ Code for app server hosted on Microsoft Azure, written for 2021 NASA Space Apps 
 2. Then refer to the steps of [this link](https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=bash&pivots=python-framework-flask) to set up your python app and enviromnent requirements in the virtual machine.
 3. Configure the fetch link in our React Native app before build, the server should run properly.
 
-####Apologies for not baing able to do a more thorough walkthrough since Azure variables differ during stage of setting
+#### Apologies for not baing able to do a more thorough walkthrough since Azure variables differ during stage of setting
