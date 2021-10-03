@@ -21,5 +21,6 @@ python Server.py
 5. Use Expo to build your application and test it. 
 6. Voila! Done. 
 
+![messageImage_1633264095902](https://user-images.githubusercontent.com/64970325/135754719-4bcf9dd5-ee3e-4b30-a209-8301d84960fd.jpeg)
 
 #### Due to our use of student accounts our release version is currently based on local hosting
