@@ -8,6 +8,18 @@ Code for app server hosted on Microsoft Azure, written for 2021 NASA Space Apps 
 3. Configure the fetch link in our React Native app link to that of Azure Service provides before build, the server should run properly.
 
 ### Hosting Locally
+1. You server and your phone must on the same network in order to test locally. 
+2. First install all the required packages. 
+```
+pip install -r requirements.txt
+```
+3. run 
+```
+python Server.py
+```
+4. You will find that the server runs on a certain IP, and then you can change the "server" varaible in App.js in our app's file into that IP. 
+5. Use Expo to build your application and test it. 
+6. Voila! Done. 
 
 
 #### Due to our use of student accounts our release version is currently based on local hosting
