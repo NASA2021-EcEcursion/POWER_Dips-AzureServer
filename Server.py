@@ -38,7 +38,7 @@ def predict_dates(num_prediction):
 
 @app.route("/")
 def hello():
-    return ""
+    return "HI"
 
 @app.route('/api', methods =['GET'])
 def api():
@@ -66,14 +66,15 @@ def api():
     print(allskypar)
     asp = allskypar.to_numpy()
     forecast = predict(num_prediction, model, asp)
-    print(forecast)
     res = 0
     for i in range(num_prediction):
-        res+=forecast[i]
+        res+=int(forecast[i])
+    print("RESULT:")
+    print(str(res))
     return str(res)
 
 
 if __name__ == '__main__':
     app.debug = True
-    app.run()
-    #app.run('0.0.0.0', '5000')
+    #app.run()
+    app.run('0.0.0.0', '5000')
