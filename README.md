@@ -10,4 +10,4 @@ Code for app server hosted on Microsoft Azure, written for 2021 NASA Space Apps 
 ### Hosting Locally
 
 
-#### Due to our use of student accounts our release version is based on local hosting
+#### Due to our use of student accounts our release version is currently based on local hosting
